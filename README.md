@@ -1,6 +1,6 @@
 # Cool Variables 🥳
 
-⚡ <strong>[ JavaScript / CSS / HTML ]</strong> --- https://josi-lima.github.io/cool-variables/
+⚡ <strong>[ HTML / CSS / JavaScript ]</strong> --- https://josi-lima.github.io/cool-variables/
 
 <br>
 
