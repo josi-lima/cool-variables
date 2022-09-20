@@ -1,4 +1,39 @@
-* {
+/* General Settings */
+
+body {
+  background-color: #0f0f0f;
+  text-align: center;
   margin: 0;
+}
+
+* {
   color: #adff2f;
+}
+
+/* Variables */
+
+:root {
+  --spacing: 10px;
+  --radius: 2px;
+  --blur: 0px;
+  --grayscale: 2px;
+  --base: #adff2f;
+}
+
+/* Section: controls */
+
+.controls {
+  margin: 2vmax;
+}
+
+/* Picture */
+
+.image {
+  width: 60%;
+  height: 60%;
+  padding: var(--spacing);
+  border-radius: var(--radius);
+  filter: blur(var(--blur));
+  filter: grayscale(var(--grayscale));
+  background: var(--base);  
 }
