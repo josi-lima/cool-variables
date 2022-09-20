@@ -1,9 +1,12 @@
 /* General Settings */
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Titillium+Web&display=swap');
+
 body {
   background-color: #0f0f0f;
   color: #adff2f;
   text-align: center;
+  font-family: Titillium Web, Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -20,8 +23,8 @@ body {
 /* Title */
 
 h1 {
-  font-size: 2vmax;
-
+  font: 3vmax Bungee Spice, Arial, Helvetica, sans-serif;
+  margin: 3vmax;
 }
 
 .h1-js {
@@ -31,7 +34,13 @@ h1 {
 /* Section: controls */
 
 .controls {
-  margin: 2vmax;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .7vmin;
+  margin: 2.5vmax;
+  font-size: 1.8vmax;
+  font-weight: 600;
 }
 
 /* Picture */
