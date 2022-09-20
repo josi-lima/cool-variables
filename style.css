@@ -60,8 +60,9 @@ h1 {
 .box-footer {
   font-size: .9vmax;
   letter-spacing: .04em;
+  white-space: nowrap;
   padding: 1vmin;
-  max-width: 30%;
+  max-width: 45%;
   margin: 2vmax auto;
   background: rgba(202, 243, 173, 0.138);
   border-radius: 1.7rem;
