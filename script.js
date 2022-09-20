@@ -1,3 +1,5 @@
+// Function to access and alter controls
+
 const inputs = document.querySelectorAll('.controls input');
 
 function handleUpdate() {

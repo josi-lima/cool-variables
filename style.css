@@ -63,6 +63,8 @@ h1 {
   -webkit-filter: blur(var(--blur));
 }
 
+/* Footer */
+
 .box-footer {
   font-size: .9vmax;
   letter-spacing: .04em;
