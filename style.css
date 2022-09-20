@@ -14,8 +14,8 @@ body {
 
 :root {
   --spacing: 1.5vmax;
-  --radius: 2px;
-  --blur: 10px;
+  --radius: 10px;
+  --blur: 5px;
   --base: #ba1ae6;
 }
 
