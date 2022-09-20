@@ -40,16 +40,22 @@ h1 {
   flex-wrap: wrap;
   gap: .7vmin;
   margin: 2.5vmax;
-  font-size: 1.8vmax;
+  font-size: 1.9vmax;
   font-weight: 600;
 }
 
 /* Picture */
 
+.img-caption {
+  font-size: 1.7vmax;
+  font-weight: bold;
+  color: var(--base);
+}
+
 .image {
   width: 70%;
   height: 65%;
-  margin: 1vmax;
+  margin: .7vmax;
   padding: var(--spacing);
   border-radius: var(--radius);
   background-color: var(--base);  
