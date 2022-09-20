@@ -16,7 +16,7 @@ body {
   --spacing: 1.8vmax;
   --radius: 2px;
   --blur: 10px;
-  --grayscale: 20px;
+  /*--grayscale: 20px;*/
   --base: #ba1ae6;
 }
 
@@ -48,6 +48,6 @@ h1 {
   padding: var(--spacing);
   border-radius: var(--radius);
   filter: blur(var(--blur));
-  filter: grayscale(var(--grayscale));
-  background: var(--base);  
+  /*filter: grayscale(var(--grayscale));*/
+  background-color: var(--base);  
 }
