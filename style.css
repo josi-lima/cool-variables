@@ -13,10 +13,10 @@ body {
 /* Variables */
 
 :root {
-  --spacing: 15px;
+  --spacing: 1.8vmax;
   --radius: 2px;
-  --blur: 0px;
-  --grayscale: 2px;
+  --blur: 10px;
+  --grayscale: 20px;
   --base: #ba1ae6;
 }
 
@@ -24,11 +24,7 @@ body {
 
 h1 {
   font: 3vmax Bungee Spice, Arial, Helvetica, sans-serif;
-  margin: 3vmax;
-}
-
-.h1-js {
-  color: var(--base);
+  margin: 1.3em;
 }
 
 /* Section: controls */
@@ -46,8 +42,9 @@ h1 {
 /* Picture */
 
 .image {
-  width: 60%;
-  height: 55%;
+  width: 70%;
+  height: 65%;
+  margin: 1vmax;
   padding: var(--spacing);
   border-radius: var(--radius);
   filter: blur(var(--blur));
