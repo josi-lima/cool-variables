@@ -11,6 +11,19 @@ body {
   margin: 0;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 2.8vmin; }
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #000;
+    border-radius: .45vmax; }
+
+::-webkit-scrollbar-thumb {
+    background: #180a0a;
+    border-radius: .45vmax; }
+
 /* Variables */
 
 :root {
@@ -47,8 +60,7 @@ h1 {
 /* Picture */
 
 .img-caption {
-  font-size: 1.7vmax;
-  font-weight: bold;
+  font: bold 1.7vmax Titillium Web, Arial;
   color: var(--base);
 }
 
